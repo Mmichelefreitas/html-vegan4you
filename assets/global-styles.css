@@ -1,0 +1,51 @@
+@import url("./font-styles.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+body {
+  font-family: "Roboto Regular";
+  animation: fadein;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+a:link {
+  font-family: "Roboto Regular";
+  color: #545454;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #e98f41;
+}
+
+.btn {
+  background-color: #55c741;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  display: flex;
+  column-gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #38a52a;
+}
+
+.main-footer {
+  width: 100vw;
+  min-height: 9vh;
+  background-color: #e98f41;
+}

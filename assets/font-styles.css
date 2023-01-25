@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Pacifico";
+  src: url("./fonts/Pacifico-Regular.ttf") format("embedded-opentype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Italic";
+  src: url("./fonts/Roboto-Italic.ttf") format("embedded-opentype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RobotoLight";
+  src: url("./fonts/Roboto-Light.ttf") format("embedded-opentype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RobotoLightItalic";
+  src: url("./fonts/Roboto-LightItalic.ttf") format("embedded-opentype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Medium";
+  src: url("./fonts/Roboto-Medium.ttf") format("embedded-opentype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Medium-Italic";
+  src: url("./fonts/Roboto-MediumItalic.ttf") format("embedded-opentype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("./fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "RobotoThin";
+  src: url("./fonts/Roboto-Thin.ttf") format("embedded-opentype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RobotoThinItalic";
+  src: url("./fonts/Roboto-ThinItalic.ttf") format("embedded-opentype");
+  font-style: normal;
+}

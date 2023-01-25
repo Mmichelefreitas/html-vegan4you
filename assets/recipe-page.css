@@ -1,0 +1,180 @@
+body {
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  width: 100vw;
+  padding: 0 40px;
+
+  width: 100%;
+}
+
+.navbar nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo {
+  height: 3rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #55c741;
+  font-weight: bold;
+}
+
+.recipe-page {
+  background-color: #f4f4f4;
+}
+
+.recipe-name {
+  background-image: url(./images/tortilla-wrap-with-falafel-fresh-salad-vegan-tacos-vegetarian-healthy-food.jpg);
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center center;
+}
+
+.recipe-name div {
+  background-color: #fff;
+  margin-left: 2rem;
+  border-radius: 5px;
+  padding: 8px 65px;
+}
+.recipe-name h2 {
+  font-family: Pacifico;
+  color: #e98f41;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+.recipe-information {
+  display: grid;
+  grid-template-columns: 28vw 36vw 36vw;
+}
+
+.resume-section {
+  padding: 1rem;
+  margin: 1.1rem 1rem 2rem 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.recipe-icons {
+  color: #38a52b;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  background-color: #f4f4f4;
+  border-radius: 9px;
+  height: 15rem;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0 0.5rem;
+  border-radius: 5px;
+  height: 2.5rem;
+  width: 10.5rem;
+}
+
+.prep-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.5rem;
+  background-color: #fff;
+  border-radius: 5px;
+  height: 2.5rem;
+  width: 10.5rem;
+}
+
+.servings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.5rem;
+  background-color: #fff;
+  border-radius: 5px;
+  height: 2.5rem;
+  width: 7.5rem;
+}
+
+.difficulty {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+  background-color: #fff;
+  border-radius: 5px;
+  height: 2.5rem;
+  width: 7.5rem;
+}
+
+.allergens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.5rem;
+  background-color: #fff;
+  border-radius: 5px;
+  height: 2.5rem;
+  width: 7.5rem;
+}
+
+.printer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.5rem;
+  background-color: #fff;
+  border-radius: 5px;
+  height: 2.5rem;
+  width: 7.5rem;
+}
+
+.recipe-tags {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.recipe-tags h4 {
+  color: #656565;
+}
+
+.recipe-buttons {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.ingredients-section {
+  padding: 1.5em;
+  background-color: #fff;
+  margin: 2rem 1rem 2rem 1rem;
+  border-radius: 9px;
+}
+
+.steps-section {
+  padding: 1.5rem;
+  background-color: #fff;
+  margin: 2rem 2rem 2rem 1rem;
+  border-radius: 9px;
+}
+
+.main-footer {
+  position: fixed;
+  bottom: 0;
+}

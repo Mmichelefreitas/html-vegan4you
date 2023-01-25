@@ -1,0 +1,52 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: calc(100vh - 9vh);
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+}
+
+.pig-logo img {
+  max-width: 20vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+  justify-content: center;
+  width: 20vw;
+}
+
+.login-form-container input {
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  background: #efefef;
+  color: #737373;
+}
+
+.link-line {
+  width: 100%;
+  color: #545454;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.main-footer {
+  position: fixed;
+  bottom: 0;
+}
